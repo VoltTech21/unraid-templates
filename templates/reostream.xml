@@ -14,7 +14,7 @@ First run: open the WebUI, then get the one-time token from the container log (D
 Before the first start, open the Unraid terminal and run: mkdir -p /mnt/user/appdata/reostream &amp;&amp; chown 65532:65532 /mnt/user/appdata/reostream (the container runs as that user, not root). If you skip this, the log says so and the claim tells you the same command.</Overview>
   <Category>MediaServer:Video HomeAutomation Security:</Category>
   <WebUI>http://[IP]:[PORT:8562]/</WebUI>
-  <TemplateURL>https://raw.githubusercontent.com/VoltTech21/unraid-templates/main/reostream/reostream.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/VoltTech21/unraid-templates/main/templates/reostream.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/VoltTech21/reostream/main/contrib/unraid/reostream.png</Icon>
   <ExtraParams/>
   <PostArgs/>
